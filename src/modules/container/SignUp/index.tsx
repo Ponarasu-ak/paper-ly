@@ -45,7 +45,7 @@ const SignUp = () => {
                 placeholder="Name"
               />
               <Input
-                // inputLabel="Email"
+                
                 value={""}
                 styles={{ width: "100%", height: "50px" }}
                 onChange={() => {}}
