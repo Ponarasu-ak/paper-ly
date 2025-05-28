@@ -38,7 +38,7 @@ const SignIn = () => {
               value={""}
               styles={{ width: "100%", height: "50px" }}
               onChange={() => {}}
-              placeholder="you@example.com"
+              placeholder="Email"
             />
             <Input
               // inputLabel="Password"
@@ -46,7 +46,7 @@ const SignIn = () => {
               variant="password"
               styles={{ width: "100%", height: "50px" }}
               onChange={() => {}}
-              placeholder="Enter your password"
+              placeholder="Password"
             />
 
             <div

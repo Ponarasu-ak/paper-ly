@@ -42,14 +42,14 @@ const SignUp = () => {
                 value={""}
                 styles={{ width: "100%", height: "50px" }}
                 onChange={() => {}}
-                placeholder="fullName"
+                placeholder="Name"
               />
               <Input
                 // inputLabel="Email"
                 value={""}
                 styles={{ width: "100%", height: "50px" }}
                 onChange={() => {}}
-                placeholder="you@example.com"
+                placeholder="Email"
               />
               <Input
                 // inputLabel="Password"
@@ -65,8 +65,8 @@ const SignUp = () => {
                 variant="password"
                 styles={{ width: "100%", height: "50px" }}
                 onChange={() => {}}
-                placeholder="Re-Enter password"
-              />
+                placeholder="Confirm password"
+                />
               <div style={{ marginTop: "4px", width: "100%" }}>
                 <ButtonMui
                   btnPadding="10px"
