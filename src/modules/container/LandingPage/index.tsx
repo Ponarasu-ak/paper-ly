@@ -5,16 +5,15 @@ import { ButtonMui, TextUndeline } from "../../../components";
 const LandingPage = () => {
   const navigate = useNavigate();
 
-  // const handleNavigation = () => {
-  //   navigate("/signin");
-  // };
+  const handleNavigation = () => {
+    navigate("/signin");
+  };
 
   return (
     <div
       style={{
         height: "100vh",
         backgroundColor: "#fff",
-
       }}
       className="flex flex-col"
     >
@@ -34,7 +33,7 @@ const LandingPage = () => {
             textAlign: "center",
             lineHeight: "1.4",
           }}
-          className=" text-6xl    font-extrabold  md:text-7xl md:font-bold"
+          className=" text-6xl    font-bold  md:text-7xl md:font-bold"
         >
           Write Your Thoughts,
           <br /> Stay Clear.
@@ -53,7 +52,7 @@ const LandingPage = () => {
             btnVarient="outlined"
             btnRadius="50px"
             btnEndIcon={<ArrowRight />}
-            // btnOnclick={handleNavigation}
+            btnOnclick={handleNavigation}
           />
         </div>
       </div>

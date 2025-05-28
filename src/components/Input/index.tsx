@@ -76,7 +76,7 @@ const Input: React.FC<InputProps> = ({
           style={{
             position: "absolute",
             right: "14px",
-            top: "70%",
+            top: "50%",
             transform: "translateY(-50%)",
             background: "none",
             border: "none",
@@ -85,7 +85,7 @@ const Input: React.FC<InputProps> = ({
             color: "#2563EB",
           }}
         >
-          {showPassword ? <EyeOpen  /> : <EyeClose />}
+          {showPassword ? <EyeOpen strokeColor="var(--description)" /> : <EyeClose strokeColor="var(--description)" />}
         </button>
       )}
     </div>
